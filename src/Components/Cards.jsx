@@ -24,6 +24,7 @@ function Cards() {
     const removeQuantity = () => {
       setQuantity(quantity-1)
     }
+    
 return (
     <Card style={{ width: '18rem' }} key={i}>
     <Card.Img variant="top" src={e.thumbnail} />
